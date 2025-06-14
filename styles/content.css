@@ -1,0 +1,69 @@
+/* X-Stats Extension Content Styles */
+
+/* Base styles for injected elements */
+.x-stats-extension {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Enhanced metrics display */
+.x-stats-metrics {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--color-text-secondary, #536471);
+}
+
+.x-stats-metric {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+}
+
+/* Hover modal styles */
+.x-stats-modal {
+  position: fixed;
+  background: var(--color-background-modal, #fff);
+  border: 1px solid var(--color-border, #e1e8ed);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  z-index: 9999;
+  max-width: 300px;
+  min-width: 250px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .x-stats-modal {
+    background: var(--color-background-modal, #1d9bf0);
+    border-color: var(--color-border, #2f3336);
+    color: var(--color-text-primary, #e7e9ea);
+  }
+
+  .x-stats-metrics {
+    color: var(--color-text-secondary, #71767b);
+  }
+}
+
+/* Loading states */
+.x-stats-loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Tooltip styles */
+.x-stats-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10000;
+  pointer-events: none;
+}

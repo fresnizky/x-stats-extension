@@ -4,16 +4,51 @@
   "version": "0.1.0",
   "description": "Enhanced X (Twitter) post statistics with engagement ratios and advanced metrics",
 
-  "permissions": [],
-  "host_permissions": [],
+  "permissions": ["storage", "activeTab"],
 
-  "content_scripts": [],
-  "background": {},
-  "action": {},
+  "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": [
+        "utils/data-extractor.js",
+        "utils/metric-calculator.js",
+        "utils/storage-manager.js",
+        "utils/dom-helpers.js",
+        "content.js"
+      ],
+      "css": ["styles/content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "X-Stats Extension",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
 
   "icons": {
     "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["styles/*.css", "utils/*.js"],
+      "matches": ["https://x.com/*", "https://twitter.com/*"]
+    }
+  ]
 }
