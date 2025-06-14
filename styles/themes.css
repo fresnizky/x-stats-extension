@@ -1,0 +1,42 @@
+/**
+ * X-Stats Extension - Theme Support
+ *
+ * CSS for light/dark theme support to match X's theme settings.
+ * Will be properly implemented across various tasks.
+ *
+ * @version 0.1.0
+ */
+
+/* TODO: Implement theme detection and variables */
+:root {
+  /* Light theme variables (default) */
+  --x-stats-text-primary: #0f1419;
+  --x-stats-text-secondary: #536471;
+  --x-stats-bg-primary: #ffffff;
+  --x-stats-bg-secondary: #f7f9fa;
+  --x-stats-border: #eff3f4;
+  --x-stats-accent: #1d9bf0;
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+  --x-stats-text-primary: #f7f9fa;
+  --x-stats-text-secondary: #8b98a5;
+  --x-stats-bg-primary: #15202b;
+  --x-stats-bg-secondary: #192734;
+  --x-stats-border: #2f3336;
+  --x-stats-accent: #1d9bf0;
+}
+
+/* TODO: Apply theme variables to components in Tasks 8 and 9 */
+.x-stats-component {
+  color: var(--x-stats-text-primary);
+  background-color: var(--x-stats-bg-primary);
+  border-color: var(--x-stats-border);
+}
+
+/* TODO: Implement theme transition animations */
+.x-stats-component {
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}

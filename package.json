@@ -1,0 +1,29 @@
+{
+  "name": "x-stats-extension",
+  "version": "0.1.0",
+  "description": "Chrome extension that enhances X (Twitter) post statistics with engagement ratios and advanced metrics",
+  "main": "content.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Build process to be implemented'",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "chrome-extension",
+    "twitter",
+    "x",
+    "statistics",
+    "analytics",
+    "social-media"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/x-stats-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/x-stats-extension/issues"
+  },
+  "homepage": "https://github.com/yourusername/x-stats-extension#readme"
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "X-Stats Extension",
+  "version": "0.1.0",
+  "description": "Enhanced X (Twitter) post statistics with engagement ratios and advanced metrics",
+
+  "permissions": [],
+  "host_permissions": [],
+
+  "content_scripts": [],
+  "background": {},
+  "action": {},
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

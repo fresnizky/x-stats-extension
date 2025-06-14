@@ -1,0 +1,30 @@
+/**
+ * X-Stats Extension - Popup Styles
+ *
+ * Basic styles for the extension popup.
+ * Will be properly implemented in Task 10.
+ */
+
+.popup-container {
+  width: 300px;
+  padding: 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+header h1 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.version {
+  margin: 0 0 16px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+main p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}

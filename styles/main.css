@@ -1,0 +1,44 @@
+/**
+ * X-Stats Extension - Main Styles
+ *
+ * Main CSS stylesheet for the X-Stats Extension.
+ * Will be properly implemented in Tasks 8 and 9.
+ *
+ * @version 0.1.0
+ */
+
+/* TODO: Implement in Task 8 - Expanded Bottom Row UI */
+.x-stats-metrics {
+  /* Styles for additional metrics in expanded bottom row */
+}
+
+.x-stats-metric {
+  /* Individual metric styling */
+}
+
+.x-stats-tooltip {
+  /* Tooltip styles for metric explanations */
+}
+
+/* TODO: Implement in Task 9 - Hover Modal UI */
+.x-stats-modal {
+  /* Modal container styles */
+}
+
+.x-stats-modal-overlay {
+  /* Modal overlay styles */
+}
+
+.x-stats-modal-content {
+  /* Modal content area styles */
+}
+
+/* TODO: Responsive design considerations */
+@media (max-width: 768px) {
+  /* Mobile-responsive adjustments */
+}
+
+/* TODO: Performance optimizations */
+.x-stats-hidden {
+  display: none;
+}
