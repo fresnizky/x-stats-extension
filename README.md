@@ -72,7 +72,7 @@ x-stats-extension/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/x-stats-extension.git
+git clone https://github.com/fresnizky/x-stats-extension.git
 cd x-stats-extension
 
 # Install dependencies
@@ -158,7 +158,7 @@ _Extension pending submission to Chrome Web Store_
 
 For issues, feature requests, or questions:
 
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/x-stats-extension/issues)
+- **GitHub Issues**: [Create an issue](https://github.com/fresnizky/x-stats-extension/issues)
 - **Documentation**: Check the `.taskmaster/docs/` directory
 - **Development**: See TaskMaster tasks for current development status
 

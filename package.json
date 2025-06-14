@@ -20,10 +20,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/x-stats-extension.git"
+    "url": "git+https://github.com/fresnizky/x-stats-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/x-stats-extension/issues"
+    "url": "https://github.com/fresnizky/x-stats-extension/issues"
   },
-  "homepage": "https://github.com/yourusername/x-stats-extension#readme"
+  "homepage": "https://github.com/fresnizky/x-stats-extension#readme"
 }
